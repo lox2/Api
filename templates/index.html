@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login and registration form</title>
+    <link rel = "stylesheet" href = "../static/styles/style.css">
+</head>
+<body>
+    <script src="../static/javascript/before_load_login.js"></script>
+    <div class="hero">
+        <div class = "form-box">
+            <div class="button-box">
+                <div id = "btn"></div>
+                <button type="button" class="toggle-btn" id = "login-btn">Login</button>
+                <button type="button" class="toggle-btn" id = "register-btn">Register</button>
+                
+
+            </div>
+            <div id = "login" class="input-group">
+                <input type="text" id = "login-email" class="input-field" placeholder="Email" required>
+                <input type="password" id = "login-password" class="input-field" placeholder="Password" required>
+                <input type = "checkbox" class="check-box"><span>Remember password</span>
+                <button id="submit-login-form" class="submit-btn">Login</button>
+            </div>
+            <div id = "register" class="input-group">
+                <input type="text"  id="register-email" class="input-field" placeholder="Email" required>
+                <input type="password"  id="register-password" class="input-field" placeholder="Password" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type = "checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <button id="submit-register-form" class="submit-btn">Register</button>
+            </div>
+            <button type="button" class="bottom-button" id = "forgot">Forgot Password?</button>
+
+        </div>
+
+    </div>
+    <script src="../static/node_modules/jquery/dist/jquery.js"></script>
+    <script src = "../static/javascript/register.js"></script>
+</body>
+</html>

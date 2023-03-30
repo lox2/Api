@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:13.3
+    build:
+      context: docker
+      dockerfile: docker/db.Dockerfile
+    environment:
+      POSTGRES_DB: "nevskiy"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "root"
+    volumes:
+      - ./docker/:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+

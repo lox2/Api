@@ -1,0 +1,35 @@
+[2023-03-26 16:06:09,761: ERROR] Tables creating failed.
+can't execute an empty query
+[2023-03-26 16:06:17,936: ERROR] Tables creating failed: can't execute an empty query
+[2023-03-26 16:06:24,283: ERROR] Tables creating failed: can't execute an empty query
+[2023-03-26 16:07:15,497: INFO] Successfully connected to DB
+[2023-03-26 16:07:15,498: ERROR] Tables creating failed: can't execute an empty query
+[2023-03-26 16:08:40,899: INFO] Successfully connected to DB
+[2023-03-26 16:09:26,194: INFO] Successfully connected to DB!
+[2023-03-26 16:09:26,195: INFO] Food table successfully created!
+[2023-03-26 16:10:22,793: INFO] Successfully connected to DB!
+[2023-03-26 16:10:22,794: INFO] Food table successfully created!
+[2023-03-26 16:10:22,796: INFO] Auth table successfully created!
+[2023-03-26 16:11:12,871: INFO] Successfully connected to DB!
+[2023-03-26 16:11:12,872: INFO] Food table successfully created!
+[2023-03-26 16:11:12,874: INFO] Auth table successfully created!
+[2023-03-26 16:12:09,403: INFO] Successfully connected to DB!
+[2023-03-26 16:12:09,403: INFO] Food table successfully created!
+[2023-03-26 16:12:09,406: INFO] Auth table successfully created!
+[2023-03-26 16:12:39,088: INFO] Successfully connected to DB!
+[2023-03-26 16:12:39,088: INFO] Food table successfully created!
+[2023-03-26 16:12:39,091: INFO] Auth table successfully created!
+[2023-03-26 16:13:12,847: INFO] Successfully connected to DB!
+[2023-03-26 16:13:12,847: INFO] Food table successfully created!
+[2023-03-26 16:13:12,847: INFO] Auth table successfully created!
+[2023-03-26 16:13:12,848: INFO] Trains table successfully created!
+[2023-03-26 16:14:26,655: INFO] Successfully connected to DB!
+[2023-03-26 16:14:26,656: INFO] Food table successfully created!
+[2023-03-26 16:14:26,656: INFO] Auth table successfully created!
+[2023-03-26 16:14:26,656: INFO] Trains table successfully created!
+[2023-03-26 16:14:26,657: INFO] Changes was successfully committed
+[2023-03-26 16:22:03,706: INFO] Successfully connected to DB!
+[2023-03-26 16:22:03,707: INFO] Food table successfully created!
+[2023-03-26 16:22:03,707: INFO] Auth table successfully created!
+[2023-03-26 16:22:03,707: INFO] Trains table successfully created!
+[2023-03-26 16:22:03,707: INFO] Changes was successfully committed

@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/uzn_15157700962.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    
+    border-radius: 30px;
+
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+
+}
+span{
+    color:  #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+
+}
+#forgot{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+.bottom-button{
+    width: 77%;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: block;
+    background: transparent;
+    border: 0;
+    position: absolute;
+    border-radius: 30px;
+    bottom: 0;
+    left: 0;
+}
+       
+.center-text{
+ text-align: center;
+ font-size: 1.4rem;
+ width: 240px;
+ margin: 70px auto;
+ position: relative;
+ border-radius: 30px;
+}
+.main-box{
+    width: 100%;
+    height: 95%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background: #fff;
+}
+.top-line{
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to left, #ff105f, #ffad06);
+    position: flex;
+    border-width: 10px;
+    border-radius: 15px;
+    
+
+}
+.bottom-line{
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    border-width: 20px;
+    
+}
+.info-case{
+    width: 40%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+    
+}
+.border-block{
+    width: 7px;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #ff105f, #ffad06);
+}
+
+.head-text{
+    display: inline-block;
+    width: 20%; 
+    height: 100%; 
+    margin: 12px 3%; 
+    font-size: 1.4rem;
+    color: #fff;
+}
+.change-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    width: 10%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    margin: 5px 85%;
+    line-height: 0;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    font-size: 0.6rem;
+    color: #fff;
+
+    border-radius: 30px;
+    transition: .5s;
+}
+.border-top-block{
+    width: 99%;
+    height: 7px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #ff105f, #ffad06);
+}
+.info-line{
+    width: 100%;
+    height: 13%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.info-block{
+    width: 80%;
+    height: 10%;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 30px;
+    background: #fff;
+}
+.kkal-block{
+    height: 30%;
+    margin: 20px 10px; 
+    width: 5%; 
+    font-size: 1.3rem;
+    
+    
+}
+.eye-block{
+
+    background: url(../images/360.jpg) no-repeat;
+    background-size: cover; 
+    width: 30%; 
+    height: 100px; 
+   
+    border-radius: 30px; 
+    margin:-5px 10px;
+    display: inline-block;
+}
+.border-block-line{
+    height: 90px;
+    width: 7px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #ff105f, #ffad06);
+    
+    
+    display: inline-block;
+    
+    
+}
